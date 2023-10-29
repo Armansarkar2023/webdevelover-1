@@ -1,0 +1,951 @@
+/*for desktop*/
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #ccffff;
+}
+    /*navbar css start here*/
+
+#logo{
+    width: 90px;
+    height: 90px;
+}
+.navbar{
+    background-image: linear-gradient(rgb(3, 255, 255),rgb(2, 57, 102));
+    height: 110px;
+    text-align: center;
+    margin: -10px;
+}
+.navbar-logo{
+    padding-top: 12px;
+    padding-left: 80px;
+    float: left;
+}
+.navbar-header{
+    color: rgb(255, 255, 65);
+    font-size: 22px;
+    position: relative;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1{
+    position: absolute;
+    top: 29px;
+    left: 250px;
+
+}
+
+.home-img{
+    height: 43px;
+    width: 43px;
+
+    position: relative;
+    bottom: 42px;
+    left: 440px;
+
+    cursor: pointer;
+}
+
+.profile-img{
+    height: 40px;
+    width: 40px;
+
+    position: relative;
+    bottom: 42px;
+    left: 490px;
+    
+    cursor: pointer;
+}
+.search-div{
+    width: 50px;
+    height: 40px;
+    background-color: white;
+    border: 2px solid black;
+
+    position: relative;
+    top: 40px;
+    left: 695px;
+    background-color: #d5ffff;
+}
+.search-icon{
+    width: 80px;
+    height: 80px;
+
+    position: relative;
+    bottom: 125px;
+    right: 16px;
+}
+.search{
+    height: 40px;
+    width: 300px;
+    position: relative;
+    left: 573px;
+    padding-left: 20px;
+    font-size: 18px;
+    background-color: rgb(203, 238, 255);
+    border: 2px solid black;
+
+    display: block;
+}
+
+.navbar-menu{
+    width: 120px;
+}
+
+.link{
+    color: black;
+    text-decoration: none;
+    
+    display: flex;
+    justify-content: center;
+    
+    font-size: 18px;
+    width: 120px;
+    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    
+    border-bottom: 3px solid black;
+    background-image: linear-gradient(rgb(0, 255, 255),rgb(0, 110, 255));
+    
+    position: relative;
+    top: 30px;
+    left: 1090px;
+    
+    padding: 10px;
+    
+    margin-bottom: 2px;
+
+    display: none;
+
+}
+
+#line-img{
+    height: 30px;
+    width: 30px;
+
+    position: relative;
+    bottom: 47px;
+    left: 465px;
+
+    cursor: pointer;
+}
+    /*navbar css end here*/
+
+    /*header css start here*/
+
+.setting-img-1{
+    height: 140px;
+    width: 140px;
+
+    position: relative;
+    top: 40px;
+    left: 890px;
+
+    transition: 2s;
+}
+
+.setting-img-2{
+    height: 140px;
+    width: 140px;
+    
+    position: relative;
+    top: 160px;  
+    left: 150px;
+
+    transition: 2s;
+}
+
+#logo-tem-1{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+
+    position: relative;
+    top: 120px;
+    left: 45px;
+}
+#logo-tem-2{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+
+    position: relative;
+    bottom: 250px;
+    left: 881px;
+}
+
+.setting-img-1:hover{
+    transform: rotate(360deg);
+}
+
+.setting-img-2:hover{
+    transform: rotate(360deg);
+}
+
+.p-text{
+    font-size: 40px;
+    font-family: 'satisfy',cursive;
+    font-weight: bolder;
+
+    position: relative;
+    left: 438px;
+    bottom: 10px;
+
+}
+
+.p1{    
+    font-weight: bolder;
+}
+
+.p2{
+    position: absolute;
+    left: 200px;
+    top: 66px;
+}
+
+.p3{
+    position: absolute;
+    left: 65px;
+    top: 130px;    
+}
+
+.p-text-2{
+    height: 50px;
+    width: 700px;
+
+    text-align: justify;
+}
+
+.p4{
+    color: rgb(128, 128, 128);
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14px;
+
+    position: relative;
+    top: 150px;
+    left: 330px;
+
+}
+
+    /*header css end here*/
+
+    /*About me css start here*/
+
+.about-me{
+    background-color: rgb(25, 83, 150);
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+
+    margin-top: 180px;
+    margin-left: 50px;
+    margin-right: 50px;
+
+    padding: 1% 7%;
+    height: 600px;
+
+    border-radius: 15px;
+
+    transition: .5s;
+}
+
+.about-me:hover{
+    box-shadow: black 0px 2px 80px 10px;
+}
+
+.AM-t{
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.AM-dotted-hr{
+    border: dotted white 5px;
+    border-bottom: none;
+    margin-bottom: 100px;
+
+
+    width: 150px;
+
+    position: relative;
+    left: 451px;
+}
+
+.AM-img-div img{
+    height: 250px;
+    width: 250px;
+    border: 3px solid white;
+    border-radius: 50%;   
+    float: left; 
+
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+
+.AM-disc-div {
+    float: right;
+    text-align: left;
+    font-size: 20px; 
+    
+    position: relative;
+    bottom: 60px;
+}
+
+.AM-disc-div p{
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+.AM-disc-div p a{
+    text-decoration: none;
+    color: white;
+}
+
+.about-me::after{
+    clear: both;
+    display: table;
+    content: '';
+}
+
+.button-1{
+    background-color: black;
+    color: white;
+
+    height: 50px;
+    width: 150px;
+
+    font-size: 15px;
+    font-weight: bolder;
+
+    margin-top: 10px;
+    margin-left: 180px;
+
+    transition: .5s;
+
+    border: none;
+    border-radius: 12px;
+
+    cursor: pointer;
+}
+
+.button-1:hover{
+    background-color: rgb(248, 48, 48);
+}
+
+
+    /*About me css end here*/
+
+    /*card css start here*/
+
+    /*1st card css start here*/
+
+.work-experience-card{
+    height: 580px;
+    width: 400px;
+    background-color: rgb(145, 143, 143);
+
+    margin-top: 30px;
+    margin-left: 50px;
+
+    border-radius: 8px;
+
+    padding: 30px;
+
+    text-align: center;
+
+    transition: 0.3s;
+
+}
+
+.work-experience-card:hover{
+    box-shadow: 9px 9px 30px 5px ;
+}
+
+.bag{
+    height: 80px;
+    width: 80px;
+
+    border: 3px solid white;
+    border-radius: 50%;
+    padding: 7px;
+}
+
+.card-header{
+    background-color: rgb(22, 22, 22);
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    padding-top: 5px;
+    padding-bottom: 8px;
+
+    border-radius: 10px;
+
+    margin-top: 20px;
+}
+
+.card-header h2{
+    font-size: 20px;
+}
+
+.card-desc{
+    text-align: left;
+
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    margin-left: 30px;
+    margin-top: 15px;
+}
+
+.card-desc ol li{
+    padding-top: 5px;
+    padding-bottom: 6px;
+}
+
+.card-hr{
+    width: 280px;
+}
+
+    /*1st card css end here*/
+
+    /*2nd card css start here*/
+
+.study-card{
+    height: 580px;
+    width: 400px;
+    background-color: rgb(145, 143, 143);    
+
+    margin-top: 30px;
+    margin-left: 50px;
+
+    border-radius: 8px;
+    
+    padding: 30px;
+    
+    text-align: center;
+    
+    transition: 0.3s;
+
+    position: relative;
+    left: 420px;
+    bottom: 610px;
+
+}
+    
+.study-card:hover{
+    box-shadow: 9px 9px 30px 5px ;
+}
+
+    /*2nd card css end here*/
+
+    /*3rd card css start here*/
+
+.skill-container{
+    height: 580px;
+    width: 400px;
+    background-color: rgb(145, 143, 143);    
+
+    margin-top: 30px;
+    margin-left: 50px;
+
+    border-radius: 8px;
+    
+    padding: 30px;
+    
+    text-align: center;
+    
+    transition: 0.3s;
+
+    position: relative;
+    left: 841px;
+    bottom: 1220px;
+
+}
+
+.skill-container:hover{
+    box-shadow: 9px 9px 30px 5px ;
+}
+
+.skill-container li{
+    list-style-type: none;
+    padding-left: 0px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+
+    text-align: left;
+}
+
+.skill-container li::before{
+    content: '';
+
+    position: absolute;
+    top: 50px;
+
+    height: 20px;
+    width: 100%;
+    background-color: rgb(192, 190, 190);
+
+    border: none;
+    border-radius: 50px;
+
+}
+
+.skill-container li::after{
+    content: '';
+
+    position: absolute;
+    top: 50px;
+    left: 0px;
+
+    height: 20px;
+    width: 0;
+    background-color: rgb(93, 252, 199);
+
+    border: none;
+    border-radius: 50px;
+
+    animation-duration: 3s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+    animation-direction: forwards;
+}
+
+.skill-container:hover li.html::after{
+    animation-name: html;
+}
+.skill-container:hover li.css::after{
+    animation-name: css;
+}
+.skill-container:hover li.js::after{
+    animation-name: js;
+}
+.skill-container:hover li.c::after{
+    animation-name: c;
+}
+.skill-container:hover li.java::after{
+    animation-name: java;
+}
+
+@keyframes html {
+    to{
+        width: 100%;
+    }
+}
+
+@keyframes css {
+    to{
+        width: 95%;
+    }
+}
+
+@keyframes js {
+    to{
+        width: 70%;
+    }
+}
+
+@keyframes c {
+    to{
+        width: 75%;
+    }
+}
+
+@keyframes java {
+    to{
+        width: 60%;
+    }
+}
+
+.skill-container strong{
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    position: relative;
+    top: 45px;
+    left: 150px;
+}
+
+
+    /*3rd card css end here*/
+
+    /*contect css start here*/
+
+.contect-container{
+    position: relative;
+    bottom: 1150px;
+    left: 10px;
+
+    background-color: #3d2c2c;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    text-align: justify;
+
+    width: 98%;
+    height: 415px;
+
+    border-radius: 10px;
+}
+
+.achivment-container{
+    width: 300px;
+    font-size: 12px;
+
+    color: white;
+
+    position: relative;
+    left: 80px;
+    top: 20px;
+}
+
+.contect-text{
+    font-size: 22px;
+    font-weight: bolder;
+
+    text-align: center;
+}
+
+.dotted-hr{
+    width: 90px;
+    border: 5px dotted white;
+    border-bottom: none;
+
+    margin-left: 101px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.achivment p{
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+    font-size: 14px;
+}
+
+    /*contect css end here*/
+
+    /*form css start here*/
+
+.review-container{
+    width: 300px;
+    font-size: 12px;
+
+    color: white;
+    position: relative;
+    left: 510px;
+    bottom: 319px;
+}
+
+.review-text{
+    font-size: 22px;
+    font-weight: bolder;
+
+    text-align: center;
+}
+
+.review-container form p input{
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+    width: 100%;
+
+    border: none;
+    border-radius: 5px;
+
+    height: 30px;
+
+    padding-left: 20px;
+
+    font-size: 15px;
+}
+
+#f-massage{
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+    width: 100%;
+
+    border: none;
+    border-radius: 5px;
+
+    padding-left: 20px;
+    padding-top: 10px;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+
+    height: 180px;
+    
+    resize: none;
+}
+
+.review-container form{
+    margin-top: 10px;
+}
+
+.review-container button{
+    height: 35px;
+    width: 100px;
+
+    border: none;
+    border-radius: 10px;
+
+    position: relative;
+    left: 33px;
+    top: 5px;
+
+    margin-left: 10px;
+
+    font-size: 15px;
+    font-weight: bold;
+
+    background-color: rgb(238, 237, 237);
+
+    transition: .3s;
+
+    cursor: pointer;
+}
+
+.review-container button:hover{ 
+    background-color: rgb(204, 61, 61);
+}
+
+    /*form css end here*/
+
+    /*media css start here*/
+
+.social-media-conatiner{
+    width: 300px;
+    height: 500px;
+
+    position: relative;
+    bottom: 1544px;
+    right: 100px;
+
+    float: right;
+
+    color: white;
+ 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.media-text{
+    font-size: 22px;
+    font-weight: bolder;
+
+    text-align: center;
+}
+
+.media-button-1{
+    font-size: 28px;
+    color: white;
+    background-color: rgb(11,102, 255);
+    height: 45px;
+    width: 45px;
+    border: none;
+    border-radius: 50%;
+    margin: 10px;
+    transition: .4s;
+    cursor: pointer;
+}
+
+.media-button-1:hover{
+    box-shadow: white 1px 1px 16px 2px;
+}
+
+.media-button-2{
+    font-size: 28px;
+    color: rgb(223, 0, 0);
+    background-color: white;
+    height: 45px;
+    width: 45px;
+    border: none;
+    border-radius: 50%;
+    margin: 10px;
+    transition: .4s;
+    cursor: pointer;
+}
+
+.media-button-2:hover{
+    box-shadow: white 1px 1px 16px 2px;
+}
+
+.media-button-3{
+    font-size: 28px;
+    color: white;
+    background-color:  rgb(4, 96, 255);
+    height: 45px;
+    width: 45px;
+    border: none;
+    border-radius: 50%;
+    margin: 10px;
+    transition: .4s;
+    cursor: pointer;
+}
+
+.media-button-3:hover{
+    box-shadow: white 1px 1px 16px 2px;
+}
+
+.media-button-4{
+    font-size: 28px;
+    color: white;
+    background-color: rgb(129, 89, 238);
+    height: 45px;
+    width: 45px;
+    border: none;
+    border-radius: 50%;
+    margin: 10px;
+    transition: .4s;
+    cursor: pointer;
+}
+
+.media-button-4:hover{
+    box-shadow: white 1px 1px 16px 2px;
+}
+
+.media-button-5{
+    font-size: 28px;
+    color: white;
+    background-color: rgb(5, 91, 241);
+    height: 45px;
+    width: 45px;
+    border: none;
+    border-radius: 50%;
+    margin: 10px;
+    transition: .4s;
+    cursor: pointer;
+}
+
+.media-button-5:hover{
+    box-shadow: white 1px 1px 16px 2px;
+}
+
+.media-button-6{
+    font-size: 28px;
+    color: white;
+    background-color: black;
+    height: 45px;
+    width: 45px;
+    border: none;
+    border-radius: 50%;
+    margin: 10px;
+    transition: .4s;
+    cursor: pointer;
+}
+
+.media-button-6:hover{
+    box-shadow: white 1px 1px 16px 2px;
+}
+
+.media-size{
+    width: 250px;
+    margin-left: 48px;
+    margin-top: 40px;
+}
+
+.media-button{
+
+}
+    /*media css end here*/
+
+    /*footer css start here*/
+
+.footer-container{
+    background-color: black;
+    height: 100px;
+    width: 98%;
+
+    position: relative;
+    bottom: 1140px;
+    left: 10px;
+
+    border-radius: 10px;
+}
+
+.footer-text{
+    color: white;
+    font-size: 20px;
+
+    margin-left: 37%;
+    
+    position: relative;
+    top: 38px;
+}   
+
+.footer-btn-container{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(3, 180, 112);
+
+    border: none;
+    border-radius: 50%;
+
+    font-size: 25px;
+
+    padding-top: 3px;
+    padding-left: 4px;
+
+    position: relative;
+    bottom: 1215px;
+    left: 1150px;
+
+    transition: .3s;
+}
+
+.footer-btn-container a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+.footer-btn-container:hover{
+    background-color: rgb(0, 170, 192);
+    box-shadow: white 1px 1px 10px 1px;
+}
+
+.footer-desc{
+    height: 30px;
+    width: 100px;
+    background-color: rgb(100, 100, 100);
+    color: white;
+    padding-top: 4px;
+    padding-left: 4px;
+
+    border: none;
+    border-radius: 5px;
+
+    position: relative;
+    bottom: 1225px;
+    left: 1050px;
+
+    visibility: hidden;
+}
+
+.footer-btn-container a:hover.footer-desc{
+    visibility: visible;
+}
+    /*footer css end here*/
+
+    /*card css end here*/
